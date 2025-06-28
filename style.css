@@ -64,6 +64,25 @@ section {
     margin-bottom: 3rem;
 }
 
+.project-card, .blog-post {
+    background: var(--light-gray);
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project-card:hover, .blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-card h3, .blog-post h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
 footer {
     text-align: center;
     padding: 20px;
